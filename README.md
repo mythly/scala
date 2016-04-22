@@ -1,13 +1,15 @@
 # scala
 
-I'm learning scala in 
+I'm learning scala.
 
-http://zh.scala-tour.com/
+Good resources: 
 
-《atomic scala》
+http://zh.scala-tour.com/ 
 
-using 
+http://docs.scala-lang.org/cheatsheets/
 
-sublime text
+《Atomic Scala》 2nd Edition
 
+Text editor: 
 
+sublime text 3
