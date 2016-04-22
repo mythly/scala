@@ -1,0 +1,293 @@
+(11,1.4,A value)
+(11,1.4,true,A value)
+Triple quotes let
+you have many lines
+in your string
+4
+It's true!
+It's true!
+It's false
+It's false
+42
+Normal weight
+true
+true
+false
+Underweight
+Operating hours: 9 - 20
+false
+Operating hours: 9 - 20
+true
+Operating hours: 9 - 20
+true
+Normal weight
+Inside multiplyByTwo
+10
+Inside addMultiply
+33.6
+Inside addMultiply
+result: 33.6
+Main$$anon$1$Giraffe@61a5814b
+Main$$anon$1$Giraffe@38cb9502
+Main$$anon$1$Hippo@3da3d36f
+Main$$anon$1$Bear@4e8e3c06
+This is in the class body
+7
+0
+1
+5.0
+6.0
+11
+a String
+a String
+[Error] expected:
+Produces Error
+Normal weight
+Normal weight
+[Error] expected:
+Underweight
+Normal weight
+[Error] expected:
+Overweight
+Underweight
+[Error] expected:
+Normal weight
+Underweight
+Underweight
+[Error] expected:
+Overweight
+Normal weight
+Underweight
+Overweight
+50
+100
+50
+100
+0 1 2 3 4 5 6 7 8 9 
+0 1 2 3 4 5 6 7 8 9 
+0 1 2 3 4 5 6 7 8 9 
+0 2 4 6 8 10 12 14 16 18 
+adding 0 to 0
+adding 2 to 0
+adding 4 to 2
+adding 6 to 6
+adding 8 to 12
+adding 10 to 20
+adding 12 to 30
+adding 14 to 42
+adding 16 to 56
+adding 18 to 72
+90
+Vector(1, 3, 5, 7, 11, 13)
+11
+1 3 5 7 11 13 
+Vector(4.4, 3.3, 2.2, 1.1)
+Vector(Twas, Brillig, And, Slithy, Toves)
+Vector(And, Brillig, Slithy, Toves, Twas)
+Twas
+Vector(Brillig, And, Slithy, Toves)
+It's true!
+It's false
+True!
+It's false
+Both are true
+First: true, second: false
+First: false, second: true
+Both are false
+3.14
+A round dessert
+A round dessert
+[Error] expected:
+Square
+27
+pop!
+Vector(19.2, 88.3, 22.1)
+88.3
+Vector(22.1, 88.3, 19.2)
+Vector(19.2, 22.1, 88.3)
+88.3
+19.2
+Janet Doe is SomeBody
+Janet Doe is SomeBody
+Janet Doe is SomeBody
+Janet Doe is SomeBody
+98.6
+37.0
+212.0
+successful move
+invalid move
+invalid move
+Somewhere
+over
+the
+rainbow
+0 1 2 3 4 5 6 7 8 9 
+1 4 7 10 13 16 19 
+0 1 2 3 4 5 6 7 8 9 
+0 1 2 3 4 5 6 7 8 9 10 
+a b c d e f g h 
+UNKNOWN COLOR: white
+BLUE
+190
+190
+20
+21
+24
+84
+84
+36
+88
+13
+99
+14
+11
+101.0
+(2,false,false,false,)
+HereCup shot shot 
+(2,true,false,true,Chocolate)
+ToGoCup decaf shot decaf shot Chocolate
+Inside primary constructor
+20.0 110.0 false true
+Inside primary constructor
+true
+15.0 100.0 true true
+Vector(Dog(Henry), Dog(Cleo))
+Vector(Cat(Miffy,3), Cat(Rags,2))
+first: hi, second: 11, third: 3.14
+f(7) is 77!
+Sky(Blue)
+Vector(1, 2, 3)
+Vector(one, two, three)
+Vector(a, b, c)
+Vector(a, b, c)
+> 1
+> 2
+> 3
+> 4
+> 1
+> 2
+> 3
+> 4
+> D
+> u
+> c
+> k
+D:u:c:k:
+Vector(1, 2, 3, 7, 14, 19)
+Vector(19, 14, 7, 3, 2, 1)
+now
+now
+now
+Vector(2, 3, 4, 5)
+1111
+1111
+5050
+Duck
+Vector(6, 8, 10, 14)
+Vector(1, 3, 5, 7)
+Vector(1, 3, 5, 7)
+Vector(12, 32, 52, 72)
+Vector(Vector(0), Vector(0, 1, 2), Vector(0, 1, 2, 3, 4), Vector(0, 1, 2, 3, 4, 5, 6))
+An Int Less than 20: 5
+Some Other Int: 25
+A String: Some text
+A person Bob
+I don't know what that is!
+Train line Reading Vector(Passenger(Harvey,Rabbit), Passenger(Dorothy,Gale))
+Bus size 100 Vector(Passenger(Harvey,Rabbit), Passenger(Dorothy,Gale))
+Vector(1, 3, 5, 7)
+Vector(1, 3, 5, 7)
+Vector(1, 3, 5, 7)
+Vector(1, 3, 5, 7)
+OttoBoughtAnAuto
+OttoBoughtAnAuto
+OttoBoughtAnAutoVector(11, 22, 99, 34)
+Vector(11, 22, 99, 34)
+()
+LongUnrulyNameFromSomeone()
+Hi
+Hi
+Hi
+Rowzafrazaca!
+Rowzafrazaca!
+Bicycle(2)
+Main$$anon$1$Surrey@78af2ac3
+Surrey with the fringe on top
+ReturnBlob(14.0,High)
+ReturnBlob(8.0,Low)
+(14.0,High)
+(8.0,Low)
+(14.0,High,true)
+(8.0,Low,false)
+(Mouse,false,1,3.14,Altitude)
+1
+3.14
+Mouse
+false
+Altitude
+Bob
+1130
+10
+20
+10
+20
+2
+20
+40
+1
+2
+3
+1
+2
+3
+Vector(Count0, Count1, Count2, Count3, Count4)
+Car(Toyota)
+weight: 100.0 age: 12
+weight: 100.0 age: 12
+weight: 100.0 age: 12
+weight: 100.0 age: 12
+weight: 100.0 age: 12
+weight: 100.0 age: 12
+weight: 100.0 age: 12
+weight: 100.0 age: 12
+888 N. Main St.
+KS
+Metropolis
+Metropolis: 888 N. Main St., KS 66632
+KS
+6
+8
+Oak
+48104
+Hoo!9
+Eep!22
+Yawp!27
+Medium
+Medium
+Vector((0,Overflow), (1,High), (2,Medium), (3,Low), (4,Empty))
+Vector(Overflow, High, Medium, Low, Empty)
+Level Low OK
+Alert: Empty
+>>> Overflow!
+The Duck goes Quack
+The Cow goes Moo
+Constructor body
+9.9
+A.gB.g
+27
+44.71828
+1
+42
+Solid
+Solid2(47)
+Dragon interact Wall
+Viking, Fight!
+Dwarf, Fight!
+1, Fight!
+[Error] expected:
+anon, Fight!
+Dragon, Fly!, Fairy interact Dragon
+true
+false
+88.0
+Vector(It's Red, It's Green, It's Blue)

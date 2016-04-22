@@ -1,0 +1,9 @@
+LinearRegression.scala:3: error: object apache is not a member of package org
+import org.apache.commons.math3._
+           ^
+LinearRegression.scala:4: error: not found: value stat
+import stat.regression.SimpleRegression
+       ^
+LinearRegression.scala:6: error: not found: type SimpleRegression
+val r = new SimpleRegression
+            ^
