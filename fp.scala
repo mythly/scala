@@ -10,7 +10,7 @@ def fib(in: Any): Int = {
 }
 
 //(-2 to 3).foreach(x => println(x + " : " + fib(x)))
-println(fib("12"))
+println(fib("1000"))
 
 /* --------------------------------------------------------- */
 
@@ -58,4 +58,40 @@ def foldLeft(list: List[Int])(init: Int)(f: (Int, Int) => Int): Int = {
 
 println("word count : " + file.map(wordCount).reduceLeft(_ + _))
 println("word count : " + foldLeft(file.map(wordCount))(0)(_ + _))
+val counts = 
+	for (line <- file)
+		yield wordCount(line)
+println("word count : " + counts.reduceLeft(_ + _)) 
 
+/* --------------------------------------------------------- */
+
+def getProperty(name: String): Option[String] = {
+	val value = System.getProperty(name)
+	if (value != null) Some(value) else None
+}
+
+val osName = getProperty("os.name")
+
+osName match {
+	case Some(value) => println(value)
+	case _ => println("None")
+}
+
+println(osName.getOrElse("none"))
+osName.foreach(println(_))
+
+/* --------------------------------------------------------- */
+
+class ScalaVersion(val url: String) {
+	lazy val source = {
+		println("fetching from " + url)
+		scala.io.Source.fromURL(url).getLines.toList
+	}
+	lazy val majorVersion = source.find(_.contains("version.major"))
+	lazy val minorVersion = source.find(_.contains("version.minor"))
+}
+
+val version = new ScalaVersion("https://raw.github.com/scala/scala/master/build.number")
+println("get scala version from " + version.url)
+version.majorVersion.foreach(println(_))
+version.minorVersion.foreach(println(_))
