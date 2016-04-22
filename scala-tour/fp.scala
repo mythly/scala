@@ -10,7 +10,7 @@ def fib(in: Any): Int = {
 }
 
 //(-2 to 3).foreach(x => println(x + " : " + fib(x)))
-println(fib("1000"))
+println(fib("10"))
 
 /* --------------------------------------------------------- */
 

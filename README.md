@@ -1,4 +1,13 @@
 # scala
 
-I'm learning and practicing scala in http://zh.scala-tour.com/
+I'm learning scala in 
+
+http://zh.scala-tour.com/
+
+《atomic scala》
+
+using 
+
+sublime text
+
 
