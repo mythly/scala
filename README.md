@@ -8,8 +8,11 @@ http://zh.scala-tour.com/
 
 http://docs.scala-lang.org/cheatsheets/
 
+http://www.scala-lang.org/api/current/index.html
+
 《Atomic Scala》 2nd Edition
 
 Text editor: 
 
 sublime text 3
+
