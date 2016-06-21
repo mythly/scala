@@ -20,7 +20,8 @@ http://hongjiang.info/scala/
 ### Text editor: 
 *sublime text 3*
 
-click Tools->Build System->New Build System, add these line
+Click Tools->Build System->New Build System. 
+Add these line and save as `Scala.sublime-build`.
 ```
 {
 	    "cmd": ["[PATH for scala]", "[Parameters for scala]", "$file"],
@@ -28,22 +29,15 @@ click Tools->Build System->New Build System, add these line
 			    "selector": "source.scala"
 }
 ```
-and save as `Scala.sublime-build`.
-
 Then you can run the scala scripts through `ctrl-b`.
 
-Useful parameters are
-```
--nc to use your package
--deprecation to see details of warning
-
-```
-
 ### Environment:
-add these to `$CLASSPATH`
+Add these to `$CLASSPATH`
 ```
 .
 lib
 lib/commons-math3-3.6.1.jar
 ```
+
+When scala cannot find the packages you imported, use `scala -nc your_source_file_` or run `fsc -shutdown` in shell.
 
