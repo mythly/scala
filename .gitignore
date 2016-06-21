@@ -1,8 +1,8 @@
 _AtomicTestErrors.txt
 *.*~
 *.swp
-*.class
 *.log
+!/lib/*
 
 # sbt specific
 .cache
