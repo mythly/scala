@@ -23,15 +23,27 @@ http://hongjiang.info/scala/
 click Tools->Build System->New Build System, add these line
 ```
 {
-	    "cmd": ["[PATH for Scala]", "[Parameters for Scala]", "$file"],
+	    "cmd": ["[PATH for scala]", "[Parameters for scala]", "$file"],
 		    "working_dir": "${project_path:${folder}}",
 			    "selector": "source.scala"
 }
 ```
 and save as `Scala.sublime-build`.
 
-Then you can run the scala scripts through `ctrl-b`
+Then you can run the scala scripts through `ctrl-b`.
+
+Useful parameters are
+```
+-nc to use your package
+-deprecation to see details of warning
+
+```
 
 ### Environment:
-add `atomic-scala-examples` and `atomic-scala-examples/commons-math3-3.6.1.jar` to `$CLASSPATH`
+add these to `$CLASSPATH`
+```
+.
+lib
+lib/commons-math3-3.6.1.jar
+```
 

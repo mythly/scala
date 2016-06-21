@@ -18,11 +18,13 @@ class EnergySource extends BatteryPower {
 
 class Battery extends EnergySource with BatteryPower
 
-object Battery extends App {
-	val battery = new Battery
-	battery.monitor(80) is "green"
-	battery.monitor(30) is "yellow"
-	battery.monitor(10) is "red"
-	args.foreach(arg => println(battery.monitor(arg.toInt)))	
+object Battery {
+	def main(args: Array[String]) {
+		val battery = new Battery
+		battery.monitor(80) is "green"
+		battery.monitor(30) is "yellow"
+		battery.monitor(10) is "red"
+		args.foreach(arg => println(battery.monitor(arg.toInt)))	
+	}
 }
 

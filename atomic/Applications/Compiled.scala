@@ -1,7 +1,9 @@
 // Compiled.scala
 
-object WhenAmI extends App {
-  hi
-  println(new java.util.Date())
-  def hi = println("Hello! It's:")
+object WhenAmI {
+	def main(args: Array[String]) {
+		hi
+		println(new java.util.Date())
+		def hi = println("Hello! It's:")
+	}
 }
